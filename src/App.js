@@ -1,10 +1,11 @@
-import "./styles.css";
+import Mycomponent from "./MyComponent";
 
-export default function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>git test</h2>
-    </div>
+    <Mycomponent name={"harimrim"} favoriteNumber={7}>
+      짬뽕먹고싶다
+    </Mycomponent>
   );
-}
+};
+
+export default App;
